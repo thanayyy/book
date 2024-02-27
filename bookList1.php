@@ -21,9 +21,9 @@ $result = mysqli_query ($conn, $sql);
 echo '<center>';
 echo '<br><h3>รายชื่อหนังสือ</h3>';
 echo '<table width="500" border="0">';
-echo '<tr><td align="left"><a href="bookInsert1.php">เพิ่มรายการหนังสือ
-
-</a></td><tr>';
+echo '<tr align=""center><td><a href="bookreport.php">BookReport</a></td>
+<td><a href="book1.php">Book1</a></td>
+<td><a href="bookInsert1.php">เพิ่มรายการหนังสือ</a></td><tr>';
 
 echo '</table>';
 echo '<br><table width="500" border="1">';
