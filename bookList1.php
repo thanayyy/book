@@ -38,9 +38,7 @@ while ($rs = mysqli_fetch_array($result))
 {
 echo '<tr align="center" bgcolor="">';
 echo '<td>'.$row.'</td>';
-echo '<td><a
-
-href="bookDetail1_edit.php?bookId='.$rs[0].'">'.$rs[0].'</a></td>';
+echo '<td><a href="bookDetail1_edit.php?bookId='.$rs[0].'">'.$rs[0].'</a></td>';
 echo '<td align="left">'.$rs[1].'</td>';
 echo '<td><a href="bookUpdate1.php?bookId='.$rs[0].'">[แก้ไข]
 
